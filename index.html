@@ -6,16 +6,16 @@
   
   <title>Justice</title>
 
-  <!--------------- Tailwind and DaisyUI ------------------->
+  <!--================- Tailwind and DaisyUI -======================-->
 
   <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <!------------------------ Font Awesome ------------------------>
+  <!--======================- Font Awesome ==========================-->
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <!----------- Poppins Font From Google ---------------->
+  <!--=================== Poppins Font From Google =======================-->
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,7 +27,7 @@
     }
   </style>
 
-  <!-------------- Custom Styles --------------------->
+  <!--================- Custom Styles -====================-->
 
   <script>
       tailwind.config = {
@@ -44,11 +44,10 @@
 </head>
 <body class="poppins">
   
-  <!--------------------- Header Section --------------------->
+  <!----=================-- Header Section --========================-->
 
   <header class="container mx-auto">
-
-    <!------------------ Navbar Section -------------------->
+<!------------------ Navbar Section -------------->
     <div class="navbar my-5">
       <div class="navbar-start">
         <div class="dropdown">
@@ -81,10 +80,10 @@
       </div>
     </div>
 
-    <!------------------- Hero Section --------------------->
+<!------------------- Hero Section --------------->
     <section>
       <div class="hero min-h-[calc(100vh-200px)]" style="background-image: url(./images/banner.png);">
-        <div class="hero-overlay mix-blend-multiply bg-black-300"></div>
+        <div class="hero-overlay bg-black bg-opacity-60"></div>
         <div class="hero-content text-center text-neutral-content">
           <div class="">
             <h1 class="mb-5 text-5xl font-extrabold text-white">We Provide Effective<br> Legal Solutions</h1>
@@ -96,13 +95,12 @@
       </div>
     </section>
 
-    <!------------------- Legal Section --------------------->
-
   </header>
-  
-  <main class="container mx-auto">
 
-    <!--------------------- Leagal Section ------------------------->
+  <!--=====================-- Main Section ----======================--->
+
+  <main class="container mx-auto">
+<!------------- Leagal Section ---------------->
 
     <section class="my-20">
       <div class="text-center">
@@ -180,6 +178,94 @@
             <div class="card-actions">
               <button class="btn mt-7 bg-[#B68C5A] text-white hover:bg-[#997243] rounded-full"><i class="fa-solid fa-arrow-right-long font-extrabold text-white"></i></button>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-------------- Carousel Section ------------->
+
+    <section class="mb-20">
+      <div class="hero-overlay mix-blend-multiply bg-blue-400"></div>
+      <div class="text-center">
+        <h1 class="font-extrabold text-4xl">What Our Client Say</h1>
+        <p class="my-10 px-5">There are many variations of passages of Lorem Ipsum available, but the majority have<br> suffered alteration in some form, by injected humour.</p>
+      </div>
+      <div class="carousel w-full">
+        <div id="slide1" class="carousel-item relative w-full">
+
+          <div class="hero" style="background-image: url(./images/banner.png);">
+            <div class="hero-overlay bg-black bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content py-20">
+              <div class="">
+                <i class="fa-solid fa-user-tie text-6xl border-4 w-20 h-20 rounded-full"></i>
+                <h1 class="text-2xl font-extrabold text-white mt-5">Awlad Hossain</h1>
+                <p class="font-normal">UIX Designer</p>
+                <p class="my-10 px-16 md:px-32">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="text-white font-extrabold btn-circle">❮</a> 
+            <a href="#slide2" class="text-white font-extrabold btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full">
+          
+          <div class="hero" style="background-image: url(./images/banner.png);">
+            <div class="hero-overlay bg-black bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content py-20">
+              <div class="">
+                <i class="fa-solid fa-user-tie text-6xl border-4 w-20 h-20 rounded-full"></i>
+                <h1 class="text-2xl font-extrabold text-white mt-5">Awlad Hossain</h1>
+                <p class="font-normal">UIX Designer</p>
+                <p class="my-10 px-16 md:px-32">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="text-white font-extrabold btn-circle">❮</a> 
+            <a href="#slide3" class="text-white font-extrabold btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide3" class="carousel-item relative w-full">
+          
+          <div class="hero" style="background-image: url(./images/banner.png);">
+            <div class="hero-overlay bg-black bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content py-20">
+              <div class="">
+                <i class="fa-solid fa-user-tie text-6xl border-4 w-20 h-20 rounded-full"></i>
+                <h1 class="text-2xl font-extrabold text-white mt-5">Awlad Hossain</h1>
+                <p class="font-normal">UIX Designer</p>
+                <p class="my-10 px-16 md:px-32">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="text-white font-extrabold btn-circle">❮</a> 
+            <a href="#slide4" class="text-white font-extrabold btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide4" class="carousel-item relative w-full">
+          
+          <div class="hero" style="background-image: url(./images/banner.png);">
+            <div class="hero-overlay bg-black bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content py-20">
+              <div class="">
+                <i class="fa-solid fa-user-tie text-6xl border-4 w-20 h-20 rounded-full"></i>
+                <h1 class="text-2xl font-extrabold text-white mt-5">Awlad Hossain</h1>
+                <p class="font-normal">UIX Designer</p>
+                <p class="my-10 px-16 md:px-32">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="text-white font-extrabold btn-circle">❮</a> 
+            <a href="#slide1" class="text-white font-extrabold btn-circle">❯</a>
           </div>
         </div>
       </div>
