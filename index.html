@@ -1,32 +1,98 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="white">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Justice</title>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Justice</title>
+  <!--------------- Tailwind and DaisyUI ------------------->
 
-        <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
-        <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!------------------------ Font Awesome ------------------------>
 
-        <script>
-            tailwind.config = {
-              theme: {
-                extend: {
-                  colors: {
-                    clifford: '#da373d',
-                  }
-                }
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!----------- Poppins Font From Google ---------------->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    .poppins{
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+
+  <!-------------- Custom Styles --------------------->
+
+  <script>
+      tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
               }
             }
-          </script>
+          }
+      }
+  </script>
 
-    </head>
+</head>
+<body class="poppins">
+  
+  <!--------------------- Header Section --------------------->
 
-    <body>
+  <header class="container mx-auto">
 
-    </body>
+    <!------------------ Navbar Section -------------------->
 
+    <div class="navbar my-8">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <label tabindex="0" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+          </label>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a href="">Home</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Cases</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="flex">
+          <img src="./images/logo2.png" class="" alt="Logo">
+        </div>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a href="">Home</a></li>
+          <li><a href="">Services<i class="fa-solid fa-chevron-right"></i></a></li>
+          <li><a href="">Cases<i class="fa-solid fa-chevron-right"></i></a></li>
+          <li><a href="">Blog<i class="fa-solid fa-chevron-right"></i></a></li>
+          <li><a href="">Contact Us<i class="fa-solid fa-chevron-right"></i></a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <a class="btn bg-[#B68C5A] text-white hover:bg-[#997243]">Free Consultation</a>
+      </div>
+    </div>
+
+    <!------------------- Hero Section --------------------->
+
+    
+
+  </header>
+  <main>
+
+  </main>
+  <footer>
+
+  </footer>
+
+</body>
 </html>
