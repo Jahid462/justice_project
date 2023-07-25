@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <title>Justice</title>
+  <link rel="shortcut icon" href="./images/business.png" type="image/x-icon">
 
   <!--================- Tailwind and DaisyUI -======================-->
 
@@ -48,7 +49,7 @@
 
   <header class="container mx-auto">
 <!------------------ Navbar Section -------------->
-    <div class="navbar my-5">
+    <div class="navbar my-5 px-5">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -81,7 +82,7 @@
     </div>
 
 <!------------------- Hero Section --------------->
-    <section>
+    <section class="px-5">
       <div class="hero min-h-[calc(100vh-200px)]" style="background-image: url(./images/banner.png);">
         <div class="hero-overlay bg-black bg-opacity-60"></div>
         <div class="hero-content text-center text-neutral-content">
@@ -184,7 +185,7 @@
     </section>
 
 <!-------------- Carousel Section ------------->
-    <section class="mb-20">
+    <section class="mb-20 px-5">
       <div class="hero-overlay mix-blend-multiply bg-blue-400"></div>
       <div class="text-center">
         <h1 class="font-extrabold text-4xl">What Our Client Say</h1>
@@ -367,8 +368,38 @@
     </section>
 
   </main>
-  <footer>
 
+<!--============================= Footer Section ========================-->
+  <footer class="footer p-10 bg-black">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 text-white px-5">
+      <div class="flex flex-col space-y-3">
+        <span class="mb-5"><img src="./images/logo.png" alt=""></span> 
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+      </div> 
+      <div class="flex flex-col space-y-3">
+        <span class="font-extrabold text-xl mb-5">Usefull Link</span> 
+        <a class="link link-hover">About us</a> 
+        <a class="link link-hover">Contact</a> 
+        <a class="link link-hover">Jobs</a> 
+        <a class="link link-hover">Press kit</a>
+      </div> 
+      <div class="flex flex-col space-y-3">
+        <span class="font-extrabold text-xl mb-5">Contact Now</span> 
+        <a class="link link-hover">Terms of use</a> 
+        <a class="link link-hover">Privacy policy</a> 
+        <a class="link link-hover">Cookie policy</a>
+      </div> 
+      <div class="flex flex-col space-y-3">
+        <span class="font-extrabold text-xl mb-5">Subscribe</span> 
+        <div class="form-control">
+          <p>Subscribe for our latest &<br> Articles. We Won’t Give You<br> Spam Mails</p>
+          <div class="relative mt-3">
+            <input type="text" placeholder="Email Address" class="px-5 py-3.5 w-8/12 rounded-lg outline-none" /> 
+            <button class="btn bg-[#B68C5A] text-white hover:bg-[#997243] absolute top-0 right-10 rounded-l-none"><i class="fa-solid fa-location-arrow "></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
 
 </body>
